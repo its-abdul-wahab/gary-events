@@ -1221,6 +1221,9 @@ section#our-team .team-members .member-two .member-card-wrapper{
 /* -------------------------------------------------------------------------------------------------------------*/
 
 section.resources-section-courses .info-box .info-box-content .info-box-btns a:hover {
-     background: #0EC99D !important;
+     background: #0EC99D;
 }
 
+.clr-prime{
+    color: #272727;
+}
