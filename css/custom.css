@@ -1,0 +1,1226 @@
+
+/*Font sizes for heading, text, list and table in long section*/
+section#course-section p,
+section#application-info p,
+section#course-section ul,
+section#application-info ul,
+section#application-info table,
+section#briefing p,
+section#briefing ul li,
+section#about-speakers .speaker-detail p,
+section#product-feature .product-feature-list ul
+{
+    font-size: 24px;
+    line-height: 34px;
+}
+section#product-feature .products-benefits p,
+section#our-team .member-details p{
+    font-size: 20px;
+}
+@media (max-width: 768px){
+    section#course-section p,
+    section#application-info p,
+    section#course-section ul,
+    section#application-info ul,
+    section#application-info table,
+    section#briefing p,
+    section#briefing ul li,
+    section#about-speakers .speaker-detail p,
+    section#product-feature .product-feature-list ul,
+    section#product-feature .products-benefits p
+    {
+        font-size: 18px;
+        line-height: 1.42;
+    }
+}
+table{
+    font-weight: 500;
+}
+
+h3{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.64px;
+    line-height: 1.3;
+}
+@media(min-width: 1500px){
+    h3{
+        padding-bottom: 1.5rem;
+    }
+}
+@media(max-width: 1500px){
+    h3{
+        padding-bottom: 1.5rem;
+    }
+}
+@media (max-width: 768px){
+    h3 {
+        font-size: 35px;
+    }
+}
+ul{
+    padding-left: 17px;
+}
+.green-text{
+    color: #0EC99D !important; /*added !important after*/
+}
+.grey-text{
+    color: gray;
+}
+
+/*Header Uni name & Main Heading*/
+.header-uni-name{
+    margin-top: -10px;
+}
+.hero-text h1{
+    font-size: 42px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    font-weight: bold;
+    font-family: inherit;
+}
+@media (max-width: 1199.98px){
+    .hero-text h1 {
+        font-size: 53px;
+    }
+}
+
+/*Icons row in header*/
+.icon{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/*Bottom right date in resource card*/
+.resource-date{
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    padding-top: 52px;
+}
+@media (min-width: 1500px) {
+    .resource-date{
+        font-size: 17px;
+    }
+}
+@media(max-width: 1500px){
+    .resource-date{
+        font-size: 15px;
+    }
+}
+@media (max-width: 575px){
+    .resource-date{
+        font-size: 13px;
+    }
+}
+/*Horizontal Video*/
+ .content-video-modal .video-play-btn-wrapper{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    z-index: 1;
+    padding: 0;
+    text-align: center;
+    color: #ffff;
+    display: inline-block;
+}
+ .content-video-modal .content-video:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #27272773;
+    border-radius: 15px;
+}
+.video-play-btn{
+    font-size: 65px;
+}
+ .content-video{
+    position: relative;
+}
+ .content-video img{
+    position: relative;
+    border-radius: 15px;
+    width: 100%;
+}
+.content-video-desc {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    width: 90%;
+    padding: 10px;
+    left: 50%;
+    transform: translate(-50%, -15px);
+}
+.content-video-desc span {
+    color: #fff;
+    font-size: 15px;
+    font-weight: normal;
+    margin-right: 20px;
+    display: inline-block;
+}
+.content-video-desc h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+@media (max-width: 990px) {
+    .content-video-desc h2 {
+        font-size: 26px;
+    }
+    .content-video-desc span {
+        font-size: 15px;
+        margin-right: 10px;
+    }
+}
+@media (max-width: 786px) {
+    .content-video-desc h2 {
+        font-size: 18px;
+    }
+    .content-video-desc span {
+        font-size: 10px;
+    }
+}
+@media (max-width: 575px) {
+    .content-video-desc{
+        padding: 0;
+    }
+    .content-video-desc h2 {
+        font-size: 15px;
+    }
+    .content-video-desc span {
+        font-size: 10px;
+    }
+}
+@media (max-width: 470px) {
+    .content-video-desc{
+        padding: 0;
+    }
+    .content-video-desc h2 {
+        font-size: 10px;
+        margin-top: 0;
+    }
+    .content-video-desc span {
+        font-size: 8px;
+    }
+}
+@media (max-width: 380px) {
+    .content-video-desc{
+        padding: 0;
+    }
+    .content-video-desc h2 {
+        font-size: 8px;
+        margin-top: 0;
+    }
+    .content-video-desc span {
+        font-size: 6px;
+    }
+}
+
+/*Buttons Row Active Button*/
+.btns-row .active{
+    background-color: #0EC99D;
+    border: 2px solid #0EC99D !important;
+    color: #E0EDFA !important;
+}
+
+/*Sections spacing*/
+section#navigation-buttons, section#programme-structure {
+    padding: 50px 0;
+}
+
+/*Gray Background Sections*/
+section#course-section,
+section#application-info,
+section#nwa-featuring,
+section#form .checkboxes,
+section#our-products{
+    background: #F4F4F4;
+    padding: 50px 0;
+}
+
+/*Image cards*/
+.uni-name{
+    text-transform: uppercase;
+    font-size: 18px !important;
+    font-weight: 500;
+}
+.professor-name{
+    font-weight: bold;
+}
+section#application-info .professors .img-wrapper img{
+    border-radius: 20px;
+    box-shadow: 0 3px 8px rgba(0,0,0, 0.1);
+}
+.img-wrapper{
+    margin-bottom: 22px;
+}
+section#application-info .professors p{
+    margin: 0;
+}
+
+/*Powered By Section*/
+.uni-footer .break-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.uni-footer .line{
+    width: 100%;
+    height: 1px;
+    background-color: #272727;
+}
+
+.rexroth-section h3{
+    font-size: 32px;
+}
+
+.read-time{
+    color: #F4F4F4;
+    font-weight: normal;
+    font-size: 10px !important;
+    margin-right: 10px;
+    letter-spacing: 1px;
+}
+@media (max-width: 991.98px){
+    .read-time {
+        font-size: 13px !important;
+        /*margin-right: 10px;*/
+    }
+}
+@media (max-width: 575.98px){
+    .read-time {
+        font-size: 16px !important;
+        margin-right: 10px;
+    }
+}
+@media (max-width: 350px){
+    .read-time {
+        font-size: 16px !important;
+        margin-right: 10px;
+        display: none !important;
+    }
+}
+
+/*Media Queries*/
+@media (max-width: 768px) {
+    .rexroth-section h3{
+        font-size: 26px;
+    }
+}
+@media (max-width: 575px) {
+    .rexroth-section h3{
+        font-size: 22px;
+    }
+}
+@media (max-width: 350px) {
+    .rexroth-section h3{
+        font-size: 19px;
+    }
+}
+
+/*Queries for extra-large screens*/
+@media(min-width: 1500px){
+    .header-uni-name{
+        font-size: 28px !important;
+    }
+    .sub-heading{
+        font-size: 28px;
+        padding-top: 1rem;
+    }
+    .icon-caption{
+        font-size: 18px;
+    }
+    .professor-name{
+        font-size: 25px;
+    }
+    .small{
+        font-size: 15px;
+    }
+    .fee-discount{
+        font-size: 24px;
+    }
+    .end-margin{
+        margin-bottom: 3rem;
+    }
+}
+/*Queries for large screens*/
+@media(min-width: 990px) and  (max-width: 1500px){
+    .header-uni-name{
+        font-size: 22px;
+    }
+    .sub-heading{
+        font-size: 24px;
+        padding-top: 1rem;
+    }
+    .icon-caption{
+        font-size: 16px;
+    }
+    .professor-name{
+        font-size: 21px;
+    }
+    .uni-name{
+        font-size: 16px !important;
+    }
+    .small{
+        font-size: 11px !important;
+    }
+    .fee-discount{
+        font-size: 20px;
+    }
+    .end-margin{
+        margin-bottom: 3rem;
+    }
+}
+/*Queries for Medium screens*/
+@media(min-width: 768px) and  (max-width: 990px){
+    .header-uni-name{
+        font-size: 24px;
+        margin-top: -10px;
+    }
+    .card-below-space{
+        padding-bottom: 45px;
+    }
+    .sub-heading{
+        padding-top: 1rem;
+    }
+    h3{
+        padding-bottom: 1.5rem;
+    }
+    .content-video .video-play-btn{
+        font-size: 50px;
+    }
+    .uni-name{
+        font-size: 16px !important;
+    }
+    .professor-name{
+        font-size: 18px;
+    }
+    .fee-discount{
+        font-size: 17px;
+    }
+    .end-margin{
+        margin-bottom: 3rem;
+    }
+}
+/*Queries for Small Screens*/
+@media (min-width: 576px) and (max-width: 768px){
+    .header-uni-name {
+        font-size: 20px;
+        margin-top: -8px;
+    }
+    .card-below-space{
+        padding-bottom: 45px;
+    }
+    .sub-heading{
+        padding-top: 1rem;
+        font-size: 28px !important;
+    }
+
+    h3{
+        padding-bottom: 1.5rem;
+    }
+    .content-video .video-play-btn{
+        font-size: 40px;
+    }
+    .uni-name{
+        font-size: 13px !important;
+    }
+    .professor-name{
+        font-size: 18px;
+    }
+    .fee-discount{
+        font-size: 14px;
+    }
+    .end-margin{
+        margin-bottom: 3rem;
+    }
+}
+/*Queries for Extra Small Screens*/
+@media (min-width: 350px) and (max-width: 576px) {
+    .card-below-space{
+        padding-bottom: 45px;
+    }
+    .featured-courses .course-wrap .title a, .featured-resources .course-wrap .title a {
+        font-size: 18px;
+    }
+
+    .header-uni-name{
+        font-size: 14px;
+        margin-top: -8px;
+    }
+    .sub-heading{
+        font-size: 28px !important;
+        padding-top: 1rem;
+    }
+    .uni-name{
+        font-size: 15px;
+    }
+    .professor-name{
+        font-size: 18px;
+    }
+    .fee-discount{
+        font-size: 11px;
+    }
+    .end-margin{
+        margin-bottom: 3rem;
+    }
+    .content-video .video-play-btn{
+        font-size: 30px;
+    }
+    .uni-name{
+        font-size: 13px !important;
+    }
+}
+
+@media (max-width: 350px) {
+    .header-uni-name{
+        font-size: 12px;
+    }
+    .sub-heading{
+        padding-top: 1rem;
+        font-size: 20px !important;
+    }
+    h3{
+        font-size: 24px !important;
+        padding-bottom: 1.5rem;
+    }
+    .uni-name{
+        font-size: 13px !important;
+    }
+    .professor-name{
+        font-size: 18px;
+    }
+    .fee-discount{
+        font-size: 11px;
+    }
+    .end-margin{
+        margin-bottom: 3rem;
+    }
+}
+@media (max-width: 575px) {
+    .button-container p{
+        margin: 0 70px 10px !important;
+    }
+}
+@media (max-width: 400px) {
+    .button-container p{
+        margin: 0 50px 10px !important;
+    }
+}
+
+p, h1, h2, h3, h4, h5{
+    font-family: inherit;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------*/
+/* -------------------------------------Webinar Page CSS------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------*/
+
+:root{
+    --textcolor: #686868;
+}
+/*Webinar Session*/
+section#webinarHeader, section#productHeader, .hero-content  {
+    background: none;
+    position: relative;
+}
+#webinar h3{
+    font-size: 45px;
+}
+.webinar-session{
+    font-size: 30px;
+    letter-spacing: 1.7px;
+    font-weight: 700;
+}
+@media (max-width: 1500px){
+    #webinar h3{
+        font-size: 40px;
+    }
+    .webinar-session{
+        font-size: 18px;
+    }
+}
+@media (max-width: 1070px) {
+    .webinar-session{
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px) {
+    #webinar h3{
+        font-size: 35px;
+    }
+    .webinar-session{
+        font-size: 18px;
+    }
+}
+
+/*Participating Companies*/
+section#participating-companies{
+    margin: 40px 0;
+}
+.company-wrapper{
+    border: 1px solid #E2E7F6;
+    border-radius: 22px;
+    padding: 20px;
+    position: relative;
+}
+.company-wrapper .heading p{
+    width: 35%;
+    position: absolute;
+    top: -8%;
+    background-color: #fff;
+}
+@media (max-width: 990px) {
+    .company-wrapper .heading p{
+        width: 35%;
+        top: -8%;
+    }
+}
+@media (max-width: 768px) {
+    .company-wrapper .heading p{
+        width: 35%;
+        top: -5% ;
+    }
+}
+@media (max-width: 575px) {
+    .company-wrapper .heading p{
+        width: 65%;
+        top: -5% ;
+    }
+}
+
+.company-wrapper::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -50.3%;
+    width: 50.3%;
+    height: 1px;
+    background-color: #E2E7F6;
+}
+.company-wrapper::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -50.3%;
+    width: 50.3%;
+    height: 1px;
+    background-color: #E2E7F6;
+}
+@media (max-width: 768px) {
+    .company-wrapper::after{
+        right: -10%;
+        width: 10%;
+    }
+}
+.section-divider{
+    width: 100%;
+    height: 1px;
+    background-color: #E2E7F6;
+}
+
+/*Brief about the seminar*/
+/* Justified text */
+section#briefing p,
+section#briefing ul,
+section#about-speakers p,
+.checkboxes span,
+section#product-feature ul{
+    color: var(--textcolor);
+    text-align: justify;
+}
+/*custom list*/
+section#briefing ul{
+    line-height: 1.5em;
+    margin: 5px 0 15px;
+    padding: 0;
+}
+section#briefing ul li{
+    list-style: none;
+    position: relative;
+    padding: 0 0 0 20px;
+}
+section#briefing ul li::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 16px;
+    width: 8px;
+    display: block;
+    border-top: 2px solid #686868;
+}
+
+/*NWA features*/
+#nwa-featuring h5{
+    color: #fff;
+}
+@media (max-width: 400px){
+    .podcast-video h2{
+        font-size: 14px !important;
+    }
+}
+.preview-btn{
+    border-radius: 5px;
+    box-shadow: 1px 3px 15px 0 rgb(106 167 26 / 15%);
+    background-color: #0ec99d;
+    color: #fff !important;
+    padding: 10px 35px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media (max-width: 768px) {
+    .preview-btn{
+        font-size: 13px;
+        padding: 12px 25px;
+    }
+}
+@media (max-width: 450px) {
+    .preview-btn{
+        font-size: 10px;
+        padding: 8px 18px;
+    }
+}
+
+.content-video-desc h4{
+    font-size: 20px;
+    font-weight: normal;
+    color: #F4F4F4;
+    line-height: 1.2;
+}
+@media (max-width: 1199.98px){
+    .content-video-desc h4 {
+        font-size: 16px;
+        line-height: 32px;
+    }
+}
+@media (max-width: 1400px) {
+    .content-video-desc h2{
+        font-size: 26px;
+        line-height: 32px;
+    }
+}
+@media (max-width: 991.98px){
+    .content-video-desc h4 {
+        font-size: 16px;
+        line-height: 32px;
+    }
+}
+@media (max-width: 575.98px){
+    .content-video-desc h2{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .content-video-desc h4{
+        font-size: 14px;
+    }
+}
+@media (max-width: 380px){
+    .content-video-desc h4{
+        margin-bottom: 0;
+        font-size: 10px;
+        line-height: 18px;
+    }
+}
+
+.participant-card {
+    border-radius: 20px;
+    box-shadow: 3px 6px 10px rgba(79, 86, 96, 0.1);
+    margin-bottom: 20px;
+}
+.grey-line{
+    background: #E2E7F6;
+    width: 30%;
+    height: 2px;
+    margin: 10px 0;
+}
+.participant-info {
+    padding: 20px;
+    text-align: center;
+}
+.participant-info a{
+    display: block;
+}
+.participant-info h3{
+    padding-bottom: 0;
+    font-weight: 500;
+    letter-spacing: 0.48px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000;
+    margin-top: 5px;
+}
+
+/*form*/
+section#form{
+    margin-bottom: 40px;
+}
+section#form input, section#product-feature input{
+    outline: none !important;
+    box-shadow: none;
+    border-radius: 50px;
+    color: #686868;
+    padding: 17px 25px;
+    border: 1px solid #272727;
+    background-color: #fff;
+}
+section#form input, section#form .nice-select, section#product-feature input, section#product-feature .nice-select{
+    margin-top: 0;
+    margin-bottom: 35px;
+    justify-content: center;
+    font-weight: 500;
+}
+section#form select{
+    border-radius: 50px;
+    background: #686868;
+    color: #272727;
+    text-align: left !important;
+}
+section#form .form-control:focus, section#product-feature .form-control:focus{
+    border: 1px solid #0EC99D;
+    color: #0EC99D;
+}
+.nice-select{
+    width: 100% !important;
+    border-radius: 50px;
+    background: #F4F4F4;
+    color: #272727;
+    box-shadow: none;
+    padding: 17px 25px;
+    height: auto;
+    line-height: 25px;
+    text-align: left !important;
+}
+.nice-select::after{
+    top: 45% !important;
+}
+.open::after{
+    top: 70% !important;
+}
+@media (max-width: 1200px) {
+    .nice-select{
+        padding: 17px 25px !important;
+        box-shadow: none !important;
+    }
+}
+.nice-select .option:hover {
+    color: #fff !important;
+}
+/*custom check-boxes*/
+form .checkboxes{
+    margin: 40px 0;
+}
+.round {
+    position: relative;
+}
+
+.round label {
+    background-color: transparent;
+    border: 2px solid #0EC99D;
+    border-radius: 25%;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.round label:after {
+    content: "";
+    width: 14px;
+    height: 6px;
+    position: absolute;
+    top: 7px;
+    left: 4px;
+    opacity: 0;
+    border: 2px solid #0EC99D;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+}
+
+.round input[type="checkbox"] {
+    visibility: hidden;
+}
+
+.round input[type="checkbox"]:checked + label {
+    border-color: #0EC99D;
+}
+
+.round input[type="checkbox"]:checked + label:after {
+    opacity: 1;
+}
+
+
+section#webinar-form .register-btn{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 3px 15px 0 rgb(106 167 26 / 15%);
+    background-color: #0ec99d;
+    color: #fff !important;
+    padding: 14px 82px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    font-weight: 500;
+}
+section#webinar-form .register-btn{
+    transform: translateY(-2px);
+    box-shadow: 1px 7px 20px 0 rgba(106, 167, 26, 0.25);
+}
+
+/*More about Speaker*/
+section#about-speakers{
+    margin: 40px 0;
+}
+section#about-speakers h3{
+    padding-bottom: 0;
+}
+.speakers{
+   margin-top: 150px;
+}
+.card-wrapper{
+    background-color: #fff;
+    margin-top: -10%;
+    margin-left: -.5%;
+}
+.speaker-detail{
+    border: 1px solid #0EC99D;
+    border-radius: 29px;
+}
+.speaker-card{
+    box-shadow: 0 0 20px rgba(79, 86, 96, 0.07);
+    border-radius: 28px;
+}
+@media (max-width: 768px) {
+    .speaker-detail{
+        border: none;
+    }
+}
+.speaker-info h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.speaker-info h4{
+    font-size: 24px;
+}
+.speaker-info h5{
+    font-size: 20px;
+}
+@media (max-width: 575px){
+    .speaker-info h3{
+        font-size: 26px;
+    }
+    .speaker-info h4{
+        font-size: 22px;
+    }
+    .speaker-info h5{
+        font-size: 20px;
+    }
+}
+@media (max-width: 450px){
+    .speaker-info h3{
+        font-size: 22px;
+    }
+    .speaker-info h4{
+        font-size: 18px;
+    }
+    .speaker-info h5{
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px) {
+    .speakers{
+        margin: 80px 0;
+    }
+    .speaker-info{
+        margin-left: 0 !important;
+    }
+    .speaker-info h3{
+        margin-bottom: 0;
+        padding: 15px 0 !important;
+    }
+    .speaker-detail p{
+        font-size: 22px;
+    }
+}
+.speaker-info{
+    margin-left: 25px;
+}
+.speaker-info p{
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+
+/*Changes according to UKindia page*/
+.section-title h5{
+    font-size: 16px;
+    line-height: 41px;
+}
+.section-title h2{
+    font-size: 40px;
+    line-height: 42px;
+}
+.participant-info h3{
+    font-size: 24px;
+    line-height: 26px;
+}
+.participant-info h4, .participant-info p{
+    font-size: 14px;
+    line-height: 16px;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------*/
+/* -------------------------------------Product Page CSS------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------*/
+
+section#productHeader .owl-dots{
+    text-align: right;
+    margin-right: 20%;
+    margin-top: 20px;
+}
+@media(max-width: 992px){
+    section#productHeader .owl-dots{
+        display: none;
+    }
+}
+section#product-feature, section#our-products, section#resources-h-product{
+    padding: 40px 0;
+}
+section#product-feature .section-divider{
+    margin: 40px 0;
+}
+section#product-feature .products-benefits{
+    padding: 0 8%;
+}
+section#product-feature .products-benefits p, section#our-products p{
+    color: var(--textcolor);
+}
+section#product-feature .products-benefits .benefit-icon-wrapper{
+    margin: 0 auto 30px auto;
+    border-radius: 20px;
+    padding: 20px;
+    background: rgba(14, 201, 157, 0.1);
+    width: 103px;
+    height: 103px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resources-h-product .material-icons{
+    font-size: 65px;
+}
+
+section#our-products .product-box{
+    padding: 32px;
+    border-radius: 25px;
+    box-shadow: 3px 6px 10px 0 rgb(79 86 96 / 10%);
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+.brochure-btn{
+    border: 1px solid #0EC99D;
+    color: #0EC99D;
+    font-size: 14px;
+    border-radius: 27px;
+    padding: 3px 30px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+/*section#our-products .our-product-slider .owl-item img{*/
+/*    width: 100%;*/
+/*}*/
+section#our-products .our-product-slider .view-details-btn{
+    width: 100%;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 1px solid;
+    padding: 10px 45px;
+    color: #E7F3F0;
+    background: #0EC99D;
+    border-radius: 40px;
+    cursor: pointer;
+}
+section#our-products .our-product-slider .trial-btn{
+    width: 100%;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 1px solid #0ec99d;
+    padding: 10px 45px;
+    color: #0ec99d;
+    background: #fff;
+    border-radius: 40px;
+    cursor: pointer;
+}
+section#our-products .our-product-slider .button-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------*/
+/* -------------------------------------About US Page CSS------------------------------------------------------ */
+/* -------------------------------------------------------------------------------------------------------------*/
+
+section#about-us{
+    padding: 40px 0;
+    position: relative;
+}
+/*section#about-us .bold-heading{*/
+/*    font-size: 35px;*/
+/*    font-weight: bold;*/
+/*    text-align: center;*/
+/*    padding-bottom: 40px;*/
+/*}*/
+section#about-us .about-us-description{
+    margin: 40px 0;
+    background: #F4F4F4;
+}
+section#about-us .company-description{
+    padding: 120px;
+}
+section#about-us .company-description p{
+    font-size: 24px;
+    line-height: 32px;
+    text-align: justify;
+    color: var(--textcolor);
+    padding-bottom: 0;
+}
+/*section#about-us .company-description .img-wrapper {*/
+/*    margin-top: -160px;*/
+/*    margin-bottom: 30px;*/
+/*    width: 300px;*/
+/*}*/
+/*@media (max-width: 570px) {*/
+/*    section#about-us .company-description .img-wrapper {*/
+/*        margin-top: -130px;*/
+/*        width: 275px;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 460px) {*/
+/*    section#about-us .company-description .img-wrapper {*/
+/*        margin-top: -105px;*/
+/*        width: 215px;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 380px) {*/
+/*    section#about-us .company-description .img-wrapper {*/
+/*        margin-top: -95px;*/
+/*        width: 175px;*/
+/*    }*/
+/*}*/
+@media (max-width: 768px) {
+    /*section#about-us .bold-heading{*/
+    /*    font-size: 30px;*/
+    /*}*/
+    section#about-us .company-description p{
+        font-size: 18px;
+        line-height: 1.42;
+    }
+}
+@media (max-width: 620px) {
+    section#about-us .company-description p{
+        padding-top: 20px;
+    }
+}
+@media (max-width: 450px) {
+    section#about-us .company-description p{
+        padding-top: 10px;
+    }
+}
+
+
+section#our-team .team-members{
+    margin-top: 40px;
+}
+section#our-team .member-details{
+    background: #D7F6EF;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+section#our-team .member-details span{
+    padding: 40px 0 10px 0;
+    margin: 0;
+}
+section#our-team .member-card-wrapper{
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.12);
+    padding: 0;
+}
+section#our-team .member-card-wrapper h3{
+    font-size: 24px;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+section#our-team .member-card-wrapper .section-divider{
+    width: 50%;
+    margin: 0 auto;
+}
+section#our-team .member-card-wrapper h4{
+    font-size: 22px;
+}
+section#our-team .team-members .member-one .member-card-wrapper{
+    margin-left: -18%;
+}
+section#our-team .team-members .member-two .member-card-wrapper{
+    margin-right: -18%;
+}
+@media (max-width: 768px) {
+    section#our-team .team-members {
+        margin-top: 30px;
+    }
+    section#our-team .team-members .member-one .member-card-wrapper{
+        margin-left: 0;
+    }
+    section#our-team .team-members .member-two .member-card-wrapper{
+        margin-right: 0;
+    }
+    section#our-team .team-members .member-two .member-details .swapping-parts{
+        display: flex;
+        flex-direction: column-reverse;  /*Swaps the places of image and text in moible view*/
+    }
+    section#our-team .team-members .member-two .member-details span,
+    section#our-team .team-members .member-two .member-details .member-card-wrapper{
+        height: auto;
+    }
+}
+
+/* -------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------- Event Page CSS ------------------------------------------------------ */
+/* -------------------------------------------------------------------------------------------------------------*/
+
+section.resources-section-courses .info-box .info-box-content .info-box-btns a:hover {
+     background: #0EC99D !important;
+}
+
